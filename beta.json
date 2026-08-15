@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "notes": "First release.",
+  "pub_date": "2026-08-15T07:32:31Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUN6NjhDOU5ZNjk0VUtxRC9ic0FIZ2Y4TnhuTzEzeHpXdHNHRUVpUTFRMmplMmN1czRNSXh3Vjk0Y2VtOGpvU2F2OTlIVDF3aWdQcUFseVorckdJcFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Nzc5MDYzCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjBfeDY0LXNldHVwLmV4ZQpVaEJMU3dIZlhvZmxmaFJBRHhnNFpaZm5HQzhHenBMNzNMSXNpNnQ0NTVESkZ4a2dQM1Mycm1YelFqZ3M4bHRvSHZIcmpxWFF2RFg2akVwWVp3bytBQT09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.0/RoverTools_0.1.0_x64-setup.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTU50MHZpdEkxTWFnMVJhMUh3WlBtQ1QrSHRhd3B6SkwzTkFNeUU1YitFMG56VDVMMzlMY002NWt1T2doVVlBOG4veFpxQjlIVmxIRTBwMGk4WWd6d3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Nzc4ODk3CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjBfYW1kNjQuQXBwSW1hZ2UKOEQ4TzEvYm1ST0ZSeWJsTWVLU1JheHBGeFlEeXFHUWhuek4wYWpZRG93OTB4bTVveUhKckdVWXNGYnJsN3lFb1g2UXdtb1dvd2k0MEhKM0lyQUc4QkE9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.0/RoverTools_0.1.0_amd64.AppImage"
+    }
+  }
+}
