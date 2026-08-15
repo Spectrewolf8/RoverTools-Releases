@@ -1,15 +1,15 @@
 {
-  "version": "0.1.3",
-  "notes": "- Stop losing the maximized window state on restart\n- Keep the session across restarts, updates and reinstalls",
-  "pub_date": "2026-08-15T11:30:53Z",
+  "version": "0.1.4",
+  "notes": "- Keep sync connected and show what it is doing",
+  "pub_date": "2026-08-15T12:54:25Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUpNZTVhajgxcS9HNWp2SGs0K1ExL1ozWFJxMXNlQVo1Z3I1anluc0pxQklWdGJ2aDRVNElWN2hVSGRpYm5CeXFSZFlsSDloMUZvTGsyUjVIc2tGUVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzkzNDEwCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjNfeDY0LXNldHVwLmV4ZQpqQWZ1cmJZVUY1eU1YalBqT0puQkMwNDBKdVRLd2FJazJMNVlsMzlSREx0ZEJkWmE5QmpxRTc5RVNFNEJrV1lacWViMHowcEZnZU5qOHpyeHVXZ1VCUT09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.3/RoverTools_0.1.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUJFUmNvMFZLZi83cTRFa2grc3FtMUNZNFJPTmhFbk9xY1EyNHBsWjJEbWk3cmNMOU1TTFFBNTRVbWtqdEZWelV3MlMvcE1hWC8xWUt5eTdyTWl5VGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Nzk4NDQ5CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjRfeDY0LXNldHVwLmV4ZQovTUxaUWRWQVg1dW02Yll5bGJZQXh1OVA2WFozNlVKNUprSWoxZXBFR20wNFczNWdGdlVSUVhUdDlHYlB4WWF1MkJMd2ZYeHhQU3puYzR2OFN2K1dDUT09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.4/RoverTools_0.1.4_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUlpcDlDTDY3Y0Q2dlBGUWlkWmpEeFFJa2NtRHFxUkIvb0F6cVZiK1cyU0V2ZU53eVF6OVVydFN5eGMxRElUSzBUZjhaUS9jb2lEandPTHVZSWJrK0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzkzMzIxCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjNfYW1kNjQuQXBwSW1hZ2UKRXRKem8yRVc0UEtLK21Mdjg1RUhQL1dEUXFKOXcwMlNlL1hxOVBZVlNKMC9qWVIxNkV5VkNEenZ6bkVNZXZCWUp0NUJ5eGlNL1pzaVJld2Y4dzBJQ0E9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.3/RoverTools_0.1.3_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTU1uWkh4V01SS1d4WWlqeTdrOGZOVTI3bCtoRkFlQVh2WUQ0aEw4WStmWHJkTkhNMUdHcnN6WUVqZVo1KzFuRytZYmFHUk9Ia1lqalk0UTBrMWNkMVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Nzk4MzY0CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjRfYW1kNjQuQXBwSW1hZ2UKTVdJWFNhTzU4aVVjVW5kMjBSMFpCenNiYjltR3g3T0JqMHp0VllhWXRVYm10eFkzV29zYUp4cmFCUnF5S2ZhOWNEZTZOeU91VFJQenBoVHhxN2ptQmc9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.4/RoverTools_0.1.4_amd64.AppImage"
     }
   }
 }
