@@ -1,15 +1,15 @@
 {
-  "version": "0.1.4",
-  "notes": "- Keep sync connected and show what it is doing",
-  "pub_date": "2026-08-15T12:54:25Z",
+  "version": "0.1.5",
+  "notes": "- Check an upload fits before sending it\n- Uploads no longer flood the server or report false failures\n- Stop bulk uploads from failing against the server\n- Tell destructive buttons apart from normal ones\n- Images upload again, and old items can be synced by hand\n- Group the space list by who is around\n- Resizable side panels, and the screen opens where you left it\n- Improve invite section layout for better usability\n- A clearer panel for what a space does\n- Turn off the cloud badge on cards\n- Keep the rules column in view, and quieter chips\n- Show the real connection state after startup\n- Spaces on the left, what the space does on the right\n- See which items came in and which went out\n- One shared space, and cloud sync you can slow down",
+  "pub_date": "2026-08-16T22:35:01Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUJFUmNvMFZLZi83cTRFa2grc3FtMUNZNFJPTmhFbk9xY1EyNHBsWjJEbWk3cmNMOU1TTFFBNTRVbWtqdEZWelV3MlMvcE1hWC8xWUt5eTdyTWl5VGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Nzk4NDQ5CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjRfeDY0LXNldHVwLmV4ZQovTUxaUWRWQVg1dW02Yll5bGJZQXh1OVA2WFozNlVKNUprSWoxZXBFR20wNFczNWdGdlVSUVhUdDlHYlB4WWF1MkJMd2ZYeHhQU3puYzR2OFN2K1dDUT09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.4/RoverTools_0.1.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUhJREtsVEdwaEU2MGlZTzh4NHNyM29FSDEyY2JMdFkzM3dvdUMzOWREU2FMdjUwZDk2MnkxRnUzUGIwY3F1Um4rcFpVUUJXcVBhWm1YVFdaYkZSNlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTE5Njc2CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjVfeDY0LXNldHVwLmV4ZQo4RE1mS2FVNkJOT3ZESkJYN1QycFYycWdiZmwzQlExWmk5STlSU1dZZzZ3T3g4N25CbUowUDhyS0hKYWZtNUQrOHRJVWNnVGNXcU9HbTJKMk9UZXJBdz09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.5/RoverTools_0.1.5_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTU1uWkh4V01SS1d4WWlqeTdrOGZOVTI3bCtoRkFlQVh2WUQ0aEw4WStmWHJkTkhNMUdHcnN6WUVqZVo1KzFuRytZYmFHUk9Ia1lqalk0UTBrMWNkMVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Nzk4MzY0CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjRfYW1kNjQuQXBwSW1hZ2UKTVdJWFNhTzU4aVVjVW5kMjBSMFpCenNiYjltR3g3T0JqMHp0VllhWXRVYm10eFkzV29zYUp4cmFCUnF5S2ZhOWNEZTZOeU91VFJQenBoVHhxN2ptQmc9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.4/RoverTools_0.1.4_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTU5Mb1ZTSHQxU0t4T0FMOE5JczhTWXhrS2tFZ1FKUkNQeHkveUNFUjUyd3Y5U09sNmNQUERpeGprYWRyU25PNm5COXR2K3VBa1NPZzhrbG82VmU0Y3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTE5NjI4CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjVfYW1kNjQuQXBwSW1hZ2UKOVpoTG5ZdW0yUVJwUFJ4ZU5STDEzek1sejJET1JwV0t5NHYzVWxwY0hmNjQ1OFVSVGR5bU9CdWhRWDFZZ29UbjErQUhMUm5DanczNHFHSnN1Wk5FQUE9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.5/RoverTools_0.1.5_amd64.AppImage"
     }
   }
 }
