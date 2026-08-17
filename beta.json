@@ -1,15 +1,15 @@
 {
-  "version": "0.1.6",
-  "notes": "- Uploading an older note to the cloud works again\n- Filters now show how many items each option would leave you\n- Invite links open the app, and codes copy with their dash\n- Remove from cloud now clears what other devices uploaded\n- Use one cloud icon per meaning, and make card badges readable\n- Say what happened when you upload or share an item\n- Stop showing three test notes on the notes screen\n- Show who shared an item, and what happened when one goes\n- Upload, remove and filter by cloud from any entry or note\n- A clearer update notification with readable release notes",
-  "pub_date": "2026-08-17T20:47:37Z",
+  "version": "0.1.7",
+  "notes": "- Removed items now say who took them out and when",
+  "pub_date": "2026-08-17T21:30:36Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUo1cGVWQVBiS3pRS0FHZEg1aVdBRUFuOVUzcjhlanFyZUk3ZXdJbTAwbEJSVEhyblVWUVNPRy9qNzl2WHBHTmxZNmtGekdQZFRpMXBhS2ZhN3ZsSHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTk5NTM2CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjZfeDY0LXNldHVwLmV4ZQpwWGM0cEFsdmFYa0NpWWxsOHpvYml2bitqTEUxekhRK0xoRVpKUW9iSkFGb05yTWFzSDdxY1hTYlVyVWI5VXFqQnNiQStFYmE4eFZiSWtQcWpieVBCZz09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.6/RoverTools_0.1.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTU9uVTN1KzEwVHlqNHNwQ1lRNmFMMGZqU3FGLzgrT0F1VVN3WmRDazhuYTFqL2NtajM2UXp2UWZTU3pqUVFJVWg5SElxVTcySXA1NG5Pc3doV1NoclFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDAxOTk3CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjdfeDY0LXNldHVwLmV4ZQpTWDFLVjJDMjczclpHeDc0azlpSXlnTGtGOUU3eW5EWHNDeXgxTzdpMXY3WHlFY0ZvTUtyRUp2ODB2TCs0clkwTFg5Vkc5UjN0dEhjQXFRcS9ZVHNCZz09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.7/RoverTools_0.1.7_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUJjUVRUcERkWWRnRTFtckppQkhZL3ptSjNKa0t2WlU0bVd3RGdmRi9EMkpTR3l5ZlhGWFhLK3dNKzMrdGQ2dmFIeldhb3FlVmxmUTVsdVpYVlh4T1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTk5Mzk3CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjZfYW1kNjQuQXBwSW1hZ2UKVG1uRm9tZXExSTVxcTNudjAzWVpZTzlaR0I4ZjJRQWRhdUFzNFpMZDZUdDRqdzY2U2wvZEY5bm1XZjdTTmY5Zkh4VFBFWCtpS2RieFRaekM0K3NzQVE9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.6/RoverTools_0.1.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTVBTSFV1dUxMUTIzeVlZdnlkMzVtZStZZDRNV1RRSGErRWNCVjluTUo1MXlTN2hBNHlLQWNpUXFzUUVXYUtpbGM4MS9jNEk0OFFFNDlWRis4SEZ4NlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDAyMjE2CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjdfYW1kNjQuQXBwSW1hZ2UKaEhDSjE1KytVbG1GUG5pQ01qZ2NrcjV0UmdwMENJZ3ZaTFB3SHZiVG4rOW1WZi9PR2J2djFZZzZIcEZpR2pjN0ZWOTRGeDZCWGZmckNrbmpGSjNvQ2c9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.7/RoverTools_0.1.7_amd64.AppImage"
     }
   }
 }
