@@ -1,15 +1,15 @@
 {
-  "version": "0.1.7",
-  "notes": "- Removed items now say who took them out and when",
-  "pub_date": "2026-08-17T21:30:36Z",
+  "version": "0.1.8",
+  "notes": "- Show who shared an entry, and stop Google sign-in from hanging\n- Stop a busy settings file from resetting your preferences\n- Stop signing you out after an update\n- Update subproject commit for orange-copy-paste-clipboard-backend\n- New members stop waiting on the space key\n- Joining a space no longer fills the feed with removed items",
+  "pub_date": "2026-08-18T07:43:11Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTU9uVTN1KzEwVHlqNHNwQ1lRNmFMMGZqU3FGLzgrT0F1VVN3WmRDazhuYTFqL2NtajM2UXp2UWZTU3pqUVFJVWg5SElxVTcySXA1NG5Pc3doV1NoclFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDAxOTk3CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjdfeDY0LXNldHVwLmV4ZQpTWDFLVjJDMjczclpHeDc0azlpSXlnTGtGOUU3eW5EWHNDeXgxTzdpMXY3WHlFY0ZvTUtyRUp2ODB2TCs0clkwTFg5Vkc5UjN0dEhjQXFRcS9ZVHNCZz09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.7/RoverTools_0.1.7_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUpGK0wwMTN0ZWlDUXJ6NTBMWFFoeTRIWXR2SmNNcDRnM3BnRGI0bzZVcW5hRFZ5aW5CdzBVZXBHQjdDRjdEcmk0Qys4QyswaTkrcXhKNWIxV0dVSUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDM4OTc0CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjhfeDY0LXNldHVwLmV4ZQpkUDZLM2FHbzZaZk5wUmVlZFhHa3FhUG1kdHRsMTJoNG93THZHTmJmMmp0YlhLYldPbCtqSVNjV1BBTlFkRHhVRU4yMncvWTdFQkkzdUtFZ3hRWVNBdz09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.8/RoverTools_0.1.8_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTVBTSFV1dUxMUTIzeVlZdnlkMzVtZStZZDRNV1RRSGErRWNCVjluTUo1MXlTN2hBNHlLQWNpUXFzUUVXYUtpbGM4MS9jNEk0OFFFNDlWRis4SEZ4NlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDAyMjE2CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjdfYW1kNjQuQXBwSW1hZ2UKaEhDSjE1KytVbG1GUG5pQ01qZ2NrcjV0UmdwMENJZ3ZaTFB3SHZiVG4rOW1WZi9PR2J2djFZZzZIcEZpR2pjN0ZWOTRGeDZCWGZmckNrbmpGSjNvQ2c9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.7/RoverTools_0.1.7_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTURvSlRENGpRQ3FyTWdBK1A0M3lLQW5oaHpNRDM1TXV2NElUTU9KSTlVNnpvVTdzT1RkUll4ak8zZnJMQm1oZm9ONSswR0tEZjRMN0ZuV0I3MDUxUWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDM4ODY0CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjhfYW1kNjQuQXBwSW1hZ2UKSlZqZzliL29aL0N3TjJuQ21iZHJMa0oxaEdxTmxmWkxMSk9mWllPYWtyOW5VMGxNVVRTNHNPbG12WVpjaXhpcURnbGNoeVVDOUVwdnFyd1o5bHJLQ3c9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.8/RoverTools_0.1.8_amd64.AppImage"
     }
   }
 }
