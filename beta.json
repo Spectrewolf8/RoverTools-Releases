@@ -1,15 +1,15 @@
 {
-  "version": "0.1.12",
-  "notes": "- Add a recovery code so a forgotten password is survivable\n- Make the password reset link work and keep your synced items\n- Copy a web invite link instead of a deep link\n- Retry the password after a Google sign-in without starting over\n- Stop leaking cloud storage when an image push is refused\n- Add Claude MCP configuration for Supabase server\n- See what is in your cloud, by type, and open it\n- Say why an item could not be uploaded\n- Removing items from the cloud no longer deletes your local copies\n- Screens stay current without switching away and back\n- Manage invites from one popover\n- Clearing a notification now sticks\n- Let a note title be changed and cleared\n- Show what you have stored and what is in the cloud\n- Manual mode no longer holds your uploads hostage\n- Never replace a saved file with less than it held",
-  "pub_date": "2026-08-19T16:18:10Z",
+  "version": "0.1.13",
+  "notes": "- Unbreak the paste slots menu and the account card\n- Stop showing one error in two panels at once\n- Say why an invite was refused, and show it as a toast\n- Add render server configuration to MCP settings",
+  "pub_date": "2026-08-19T18:05:09Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUE2T1oxL0M0Q0g2ZkVpR09DaCtIeXF1YnNGQlpnTVIyQUoveko4dFJnSnNKTUkwUlUvNTR2ejk5WEJOYWFXTkxnSEI2QlVnMTFTbUNtNmtlRkRmRFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTU1OTYyCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjEyX3g2NC1zZXR1cC5leGUKZGNrN1RlcWthWjZ3TDMyOWFTMFBhNTU5ejhzaEl4UTU3WEpVMWwrZ0RLUEVOVkhsSE9sV3VKTVpDQytXektFS0h3eW4renlYSC9lZ2lSZ3J6R0pPQ3c9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.12/RoverTools_0.1.12_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTU55bmwveU1hRHYvQkI3R1RkNDR0QUhPK2lpSlVmanhUbkFIdy9vMStkVmIxdkpvekFqWXlKcjcwOTFQTnhHWDg1QnBTMFVPSnNuTDFWU2NJWVN1Z0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTYyNjg3CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjEzX3g2NC1zZXR1cC5leGUKbzVnZDM0cmxBbXdZNmJ5OURqOVJmKzVpTStRbEN1NFJhRzc1N2t4YXpKRFNRNjdVT3VGTmwzUVM4VjdKNXJlbnZrMDJlckFDUlZ6SVE5RWRQbWRORGc9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.13/RoverTools_0.1.13_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUlUa3JXcldDVDc5NFhUWkNEOEQzaDJlaVAwU25VUy9KVlc5MUFFVlpYcEdLQ3JvdnRjMWlvT01OeWl1NDZKQW4xQk13bTVMaU1YZDg1cC93N3pkWkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTU1OTgyCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjEyX2FtZDY0LkFwcEltYWdlCk5HbitEK1R5RXFGUUw5dXpiK21ZZEJRVU5xUmd2aWZrOTgzd3psclFSbEJaNExzWXJPN084d1VVYThZMjBnWW1pa2gzM25wN3l5V1N4UmY3UkhSb0R3PT0K",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.12/RoverTools_0.1.12_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUdDNys4QmRjY1JrdEIyOU5JejJYS0dtdlMzU0dGYWN3UDJ3S3pPWXdGODVPUjBYWEZyTVJNeW5KYUtRdXI1cFgyYm9ERnRyTnZZbCt1ZVNKdWdFY3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTYyNTUwCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4xLjEzX2FtZDY0LkFwcEltYWdlCnVMdWxyMzdOREwvUWJFejVyVFA2WExyTmR5UHJtelpjcXdlaUlwYWU3N2JaWXQ1N1FyYWM0WC9YbnNjNS8yQ0xtQlVYMFNYTkNEUGo4K280Z1VoekJnPT0K",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.1.13/RoverTools_0.1.13_amd64.AppImage"
     }
   }
 }
