@@ -11,6 +11,26 @@ Two channels: **stable** reaches everyone, **beta** reaches only installs opted 
 ## Beta
 
 <details>
+<summary><strong>v0.2.1</strong> (patch) - 2026-08-28</summary>
+
+Two fixes for the Spaces feed. Placeholders for items taken out of a space now sit where
+the item was, and they say who took it out.
+
+### Fixed
+- A placeholder for an item removed from a space now sits where the item sat, among the
+  things it was shared alongside. It used to land under the day it was taken down, in a
+  date group of its own with nothing around it to say what it referred to.
+- The placeholder now names who removed it. Taking your own item out of a space read as
+  "A space owner took this item out of the space", describing you in the third person as
+  somebody who had moderated you. It now says "You", and when it was someone else it uses
+  their name.
+- The picture on a "Shared by" chip no longer shows a broken-image icon. A profile
+  picture that cannot be loaded falls back to initials, the way every other picture in
+  the app already did.
+
+</details>
+
+<details>
 <summary><strong>v0.2.0</strong> (minor) - 2026-08-24</summary>
 
 Anything you open now gets the whole window. A clipboard entry, a note, or an item someone
