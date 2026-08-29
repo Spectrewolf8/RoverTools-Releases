@@ -1,15 +1,15 @@
 {
-  "version": "0.2.2",
-  "notes": "Times were wrong whenever two of your devices disagreed about the clock, so an item\nthat had just arrived could claim to be minutes old. This release measures every\ntimestamp against the same clock, and adds a way to filter a list by who added what.\n\n### New\nFilter by who added an item. The clipboard, notes and Spaces filters each have a Mine\nswitch and a From others switch, so you can narrow a list down to your own items or to\nwhat other people sent. Picking one clears the other, and each shows how many items it\nwould leave.\n\n### Fixed\nSomething copied on another device no longer shows the wrong age. Every timestamp is\nnow measured against one shared clock instead of whichever machine happened to write\nit, so an item that just arrived reads as new. It also lands in the right place when\nyou sort by time.\n\nThe cloud and sharing filters no longer run their labels together. Each option is now\ngiven room in proportion to how long its label is, rather than an equal share, so the\ncounts stay readable at every window size.\n\nThe Clear button on the active filter bar no longer looks cut off. It now fills the end\nof the bar and follows its rounded corner.",
-  "pub_date": "2026-08-28T20:47:45Z",
+  "version": "0.2.3",
+  "notes": "A fix for password reset, which stopped working after the sync service changed\naddresses.\n\n### Fixed\n- The link in your password reset email opens the app again. Requesting a new\n  password from the sign-in screen now works from start to finish.",
+  "pub_date": "2026-08-29T19:48:10Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTURtaWtlR092QkdVZ1hKVjRsYkxsRlBpNTFqeHpOSytqZ0JOQXpueTdvSlhNNFcvcjdWNitmQ2hJa1hoRDljL0dFWjFqbkE5U0QyM2VvbmpqTU9jY1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTUwMDQ1CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4yLjJfeDY0LXNldHVwLmV4ZQptL0dWYmVqbysybnZKb3UyN1loQkkrS1kxMDZVUENNRkIzRithbFJCMFZudDhub1hTYk5Vajg0S1Bnci9oSkY1YXhSTDkrQUlnaGd0ZlZCTnQ5WFlBQT09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.2.2/RoverTools_0.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUMra2ZkWlNsWnZTNC9TeVdLaTNZNklyOU9xSzJBc0dxSmF2bCtESE04YkJ3NHVNK1lPdFQ5MWxocGx1d0MrK2xqQ1NJT2dtS1Q1a0o0OHIyK1hWT3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDMyODYyCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4yLjNfeDY0LXNldHVwLmV4ZQpRTXA0b0p5a0h5QWR2NmNkaC93anpVeEF6YlgwM3JMWDU1Q3E2T0lzdWYwcmtvbnUrTFRKelpzL1lOVTFKeDB6Q2JzUzhjdVJ4dkwrRmVGcXEzdjBCQT09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.2.3/RoverTools_0.2.3_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUQ1LzRheEhmYlRhUFV6Uktyb3pWYy82NGxEci9iWjJoVGZKa1Bla3paTmxvZ2x5UGVpL1lLTC9PMGRnSEtLYjZ3MlQvdHJYNUN3cVhXRGdHcUJBcHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTQ5ODc4CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4yLjJfYW1kNjQuQXBwSW1hZ2UKWDFJbTNlbkZwQzdnRWlpR200STRxZ1NFQVRINHl4U2ZnMUtIMWtWSmZCeVU5eVU4UWYyNnpxa0ZkSFZGTEQ1L1FnL3YyRmhVb2h5Z3BxSnRHTXJxQ2c9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.2.2/RoverTools_0.2.2_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUx6SGxpNkx0VzR4TzRuZzRSUEE2WEFnOFBqNVNpaFdoL2RjdDJab3hTQ09SanE2ejBOUW9WSWZQOTVDOUtZbVR2bUg0bmpHSm1qTnR0WTVXcUV4alFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDMyNjMwCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4yLjNfYW1kNjQuQXBwSW1hZ2UKd2M1dFg5L05iOStwNHVETmRGN21LRmJqc3BaQVQyV3BrNDRRcEx2NDFpekd4NmhYTmNHRExiSjlFUVpDNHhkdk9lYy9STjJhd2kvYmsxOVE3NHdwQmc9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.2.3/RoverTools_0.2.3_amd64.AppImage"
     }
   }
 }
