@@ -11,6 +11,18 @@ Two channels: **stable** reaches everyone, **beta** reaches only installs opted 
 ## Beta
 
 <details>
+<summary><strong>v0.2.3</strong> (patch) - 2026-08-29</summary>
+
+A fix for password reset, which stopped working after the sync service changed
+addresses.
+
+### Fixed
+- The link in your password reset email opens the app again. Requesting a new
+  password from the sign-in screen now works from start to finish.
+
+</details>
+
+<details>
 <summary><strong>v0.2.2</strong> (patch) - 2026-08-28</summary>
 
 Times were wrong whenever two of your devices disagreed about the clock, so an item
