@@ -11,6 +11,32 @@ Two channels: **stable** reaches everyone, **beta** reaches only installs opted 
 ## Beta
 
 <details>
+<summary><strong>v0.3.0</strong> (minor) - 2026-09-02</summary>
+
+Files and folders now sync across your devices, and deleting synced or shared items is clearer and safer to do.
+
+### New
+Files and folders now sync across your devices, sent as a single zipped copy that unpacks on the other side.
+
+Deleting a synced item now asks you to confirm first, and the prompt spells out what the delete does. A "Don't ask again" option turns it off.
+
+Deleting an item someone shared with you now removes it from all your devices at once, while it stays in the space for everyone else.
+
+### Improved
+The copy and paste quick popups have a cleaner, redesigned look.
+
+The quick-copy popup opens faster.
+
+Removing an item from the cloud now says it stays on this device and leaves your other devices.
+
+### Fixed
+Images copied while offline now retry on their own and catch up once you are back online.
+
+Opening the delete confirmation from a quick popup no longer floods the app and can hang it.
+
+</details>
+
+<details>
 <summary><strong>v0.2.3</strong> (patch) - 2026-08-29</summary>
 
 A fix for password reset, which stopped working after the sync service changed
