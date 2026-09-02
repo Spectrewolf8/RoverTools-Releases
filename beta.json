@@ -1,15 +1,15 @@
 {
-  "version": "0.2.3",
-  "notes": "A fix for password reset, which stopped working after the sync service changed\naddresses.\n\n### Fixed\n- The link in your password reset email opens the app again. Requesting a new\n  password from the sign-in screen now works from start to finish.",
-  "pub_date": "2026-08-29T19:48:10Z",
+  "version": "0.3.0",
+  "notes": "Files and folders now sync across your devices, and deleting synced or shared items is clearer and safer to do.\n\n### New\nFiles and folders now sync across your devices, sent as a single zipped copy that unpacks on the other side.\n\nDeleting a synced item now asks you to confirm first, and the prompt spells out what the delete does. A \"Don't ask again\" option turns it off.\n\nDeleting an item someone shared with you now removes it from all your devices at once, while it stays in the space for everyone else.\n\n### Improved\nThe copy and paste quick popups have a cleaner, redesigned look.\n\nThe quick-copy popup opens faster.\n\nRemoving an item from the cloud now says it stays on this device and leaves your other devices.\n\n### Fixed\nImages copied while offline now retry on their own and catch up once you are back online.\n\nOpening the delete confirmation from a quick popup no longer floods the app and can hang it.",
+  "pub_date": "2026-09-02T13:31:17Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUMra2ZkWlNsWnZTNC9TeVdLaTNZNklyOU9xSzJBc0dxSmF2bCtESE04YkJ3NHVNK1lPdFQ5MWxocGx1d0MrK2xqQ1NJT2dtS1Q1a0o0OHIyK1hWT3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDMyODYyCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4yLjNfeDY0LXNldHVwLmV4ZQpRTXA0b0p5a0h5QWR2NmNkaC93anpVeEF6YlgwM3JMWDU1Q3E2T0lzdWYwcmtvbnUrTFRKelpzL1lOVTFKeDB6Q2JzUzhjdVJ4dkwrRmVGcXEzdjBCQT09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.2.3/RoverTools_0.2.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUhWaVd3blJYM2xzQlNvb2tITk52K1VrUHJ1S0doUGRyZ0YrTGVSV0NLNWUvaVY1SmlGMWZTM2tTQzh4Z2JoTjh0M0l1SUFYZ0pFbjUrV2MzN0VnbGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzU1Njg2CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjBfeDY0LXNldHVwLmV4ZQpBQ3lzN0h5R2VVWFBsUFBmaGhXb2JCa1ZWZUpyd25VRTlzYmZYcEIwTkR5bCtKQzZiSndhNWdpeWFUMHV5Y3RKemh2SjBHWkFyZVM0NkczaXlObmNEdz09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.0/RoverTools_0.3.0_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUx6SGxpNkx0VzR4TzRuZzRSUEE2WEFnOFBqNVNpaFdoL2RjdDJab3hTQ09SanE2ejBOUW9WSWZQOTVDOUtZbVR2bUg0bmpHSm1qTnR0WTVXcUV4alFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDMyNjMwCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4yLjNfYW1kNjQuQXBwSW1hZ2UKd2M1dFg5L05iOStwNHVETmRGN21LRmJqc3BaQVQyV3BrNDRRcEx2NDFpekd4NmhYTmNHRExiSjlFUVpDNHhkdk9lYy9STjJhd2kvYmsxOVE3NHdwQmc9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.2.3/RoverTools_0.2.3_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUxOcVZYY3Q4SkU2UWZDYzBsR3QzOVcyeTZ5VHpRWlRSWDdjTkVVWGl0Sk1HNEN5NkdyQmhvSDNkV0lIMzl5akxEYVJQcHFJdmJocFFMUTd3YnNTSVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzU1NTgzCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjBfYW1kNjQuQXBwSW1hZ2UKeldBVzlOcVVGaE9tUDZkaWh6V1pheWFvWWxKd1Y4L1NBL1NJT1MrUisvODZBcHNZSHFzbW5NcTV6R1dOTzdpUHkwKzl1eldaRXBaN0VXQmp2UXpNQlE9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.0/RoverTools_0.3.0_amd64.AppImage"
     }
   }
 }
