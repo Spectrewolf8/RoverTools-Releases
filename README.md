@@ -11,6 +11,22 @@ Two channels: **stable** reaches everyone, **beta** reaches only installs opted 
 ## Beta
 
 <details>
+<summary><strong>v0.3.2</strong> (patch) - 2026-09-06</summary>
+
+A refreshed startup experience and a hands-off way to stay current. The splash now lives quietly in the corner, tells you when an update is waiting, and can install it for you.
+
+### New
+- The startup splash is now a small card in the bottom-right corner instead of a box in the middle of the screen. It slides in by the tray, shows a quick tip for using the app, and slides away on its own.
+- The splash checks for a newer version as the app starts and tells you when one is available, so you find out at launch rather than the next time you open Settings.
+- You can now have updates install themselves. Turn on "Install updates automatically" in Settings under Updates, and when a new version is found at startup the app downloads and installs it before it opens. Nothing installs while you are working, only at launch, and it is off until you turn it on.
+- The copy and paste popups can be moved. Drag either one by its header to shift it out of the way for that appearance.
+
+### Fixed
+- The copy popup no longer pops up again when you use the copy shortcut on something that is already at the top of your history. It appears only when something new is actually captured.
+
+</details>
+
+<details>
 <summary><strong>v0.3.1</strong> (patch) - 2026-09-03</summary>
 
 A round of clipboard, sharing, and image-viewer refinements, with fixes for notifications and synced items.
