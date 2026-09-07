@@ -11,6 +11,16 @@ Two channels: **stable** reaches everyone, **beta** reaches only installs opted 
 ## Beta
 
 <details>
+<summary><strong>v0.3.3</strong> (patch) - 2026-09-07</summary>
+
+Starting the app while it is already running now brings it back into focus.
+
+### Fixed
+Launching the app while it is already running in the background now brings its window to the front, the same way clicking the tray icon or taskbar entry does. Before, a second launch just flashed the startup toast and left the app in the background.
+
+</details>
+
+<details>
 <summary><strong>v0.3.2</strong> (patch) - 2026-09-06</summary>
 
 A refreshed startup experience and a hands-off way to stay current. The splash now lives quietly in the corner, tells you when an update is waiting, and can install it for you.
