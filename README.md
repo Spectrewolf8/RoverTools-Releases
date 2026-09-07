@@ -11,6 +11,16 @@ Two channels: **stable** reaches everyone, **beta** reaches only installs opted 
 ## Beta
 
 <details>
+<summary><strong>v0.3.4</strong> (patch) - 2026-09-07</summary>
+
+Launching the app while it is already running now reliably brings the window you already have to the front.
+
+### Fixed
+Starting the app while it was already running in the background could open a fresh copy behind the startup toast instead of showing the window you already had. It now brings the running app to the front, the same as clicking the tray icon or the taskbar.
+
+</details>
+
+<details>
 <summary><strong>v0.3.3</strong> (patch) - 2026-09-07</summary>
 
 Starting the app while it is already running now brings it back into focus.
