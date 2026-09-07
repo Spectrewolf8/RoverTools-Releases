@@ -1,15 +1,15 @@
 {
-  "version": "0.3.3",
-  "notes": "Starting the app while it is already running now brings it back into focus.\n\n### Fixed\nLaunching the app while it is already running in the background now brings its window to the front, the same way clicking the tray icon or taskbar entry does. Before, a second launch just flashed the startup toast and left the app in the background.",
-  "pub_date": "2026-09-07T15:37:14Z",
+  "version": "0.3.4",
+  "notes": "Launching the app while it is already running now reliably brings the window you already have to the front.\n\n### Fixed\nStarting the app while it was already running in the background could open a fresh copy behind the startup toast instead of showing the window you already had. It now brings the running app to the front, the same as clicking the tray icon or the taskbar.",
+  "pub_date": "2026-09-07T18:31:49Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUZac2Y5VzNQOE1VQ1pWeHZZMm1DbjlFZVlTb3hSeTFQRWU1bUNNaWhwc3R2Z2xHS2pPZVVUenpEckhRcGdINUo3bXB1RzRlV1cyNnA1RFRDa2IwT0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzk1NDE3CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjNfeDY0LXNldHVwLmV4ZQp6UnNucTJ3UHB2dXd3Z2VNZEI5bEtHamtXbWo5NUxZbVJ0VzJIVjZVbUdxQkZTZVBRei8vTit5ZGRxY2RUWHJWZm5aOUpGcTA5K2NlaEhnd1ZpRzJBUT09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.3/RoverTools_0.3.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUwxTUE0cmZLZHd0M3owQmp0NFNtdm5sc3kzY3l5eUJ4MGpjS3VRYU1FUCtaOWJHbzJzYzU3VTNNQ2FsT3IySG42cTdPK2FsaXJFeGNwTzYzb2RqMkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODA1ODg5CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjRfeDY0LXNldHVwLmV4ZQptMVN6dWVnNFZrQWx4K2Y5cURWVzB1WEJTaXRRWmFxMFpiTVFscXREN05vMzdOTGFFeDFhOUZYWUlWTVFsU1ZJSkt6M0NEUW85MWpSTGZVS2I3VmRBZz09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.4/RoverTools_0.3.4_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTVBrcW5YRXR3a2c0Rnl6amVCSFdvY0dBSE5jTkF1VDF6UkUzaVVwM3pCWU1tVFd4ei9DejBPU0UwQzI5UDlMV0ExOVBlOHdKOC9wc3M1cGxGVjVFT0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzk1MzA1CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjNfYW1kNjQuQXBwSW1hZ2UKdmFwaXBUZWZEOFYrMGdLMUMzYnFNYUtOV1BlajFHWGFhWEtYRkNZVTlIVHo5L1lTYWhIYW8veDdjemcxNmdsT0NsVXl5MVJKbEdQeHFBeVNZODZGREE9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.3/RoverTools_0.3.3_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTURGRENTaTFjb1RXUDdvSTBuZFpqaDR0VVE2UmpVcThwclJtVlZsVy92azIxYXAvWmNPUVlTYUFFcHVQOG1aRzBPYzQ2d2djUHd3QjkyV2Urb0RTY0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODA1Nzc2CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjRfYW1kNjQuQXBwSW1hZ2UKQ0xnUTNka3dVbEs0Zy9DOUdnckpiQXFLbVAxM3NKdG8zazQrUktwMm1pdnJDdWJiaW15NlRPNStjWVdmTDdUREFvU1Y0U3hiNXhSRG5FMFpSb1hTREE9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.4/RoverTools_0.3.4_amd64.AppImage"
     }
   }
 }
